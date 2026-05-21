@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا - مطعم الدجاج الشامي</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>مطعم الدجاج الشامي</h1>
+                <p class="nav-subtitle">El Shami Chicken</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="menu.html">المنيو</a></li>
+                <li><a href="contact.html" class="active">تواصل معنا</a></li>
+            </ul>
+            <div class="nav-cart">
+                <a href="order.html" class="cart-icon">
+                    🛒
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="contact-header">
+        <div class="container">
+            <h1 class="page-title">تواصل معنا</h1>
+            <p class="page-subtitle">نسعد بخدمتكم في أي وقت - فريقنا جاهز للرد على استفساراتكم</p>
+        </div>
+    </section>
+
+    <!-- Contact Info Cards -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-cards-grid">
+                <!-- Phone Card -->
+                <div class="contact-card">
+                    <div class="contact-icon phone-icon">📞</div>
+                    <h3>أرقام الهواتف</h3>
+                    <div class="contact-details">
+                        <a href="tel:01200287578" class="phone-link">📞 012 701 251 23</a>
+                    </div>
+                </div>
+
+                <!-- WhatsApp Card -->
+                <div class="contact-card whatsapp-card">
+                    <div class="contact-icon whatsapp-icon">💬</div>
+                    <h3>واتساب</h3>
+                    <p>تواصل معنا مباشرة عبر واتساب لخدمة أسرع</p>
+                    <a href="https://wa.me/201200287578" target="_blank" class="btn btn-whatsapp">
+                        محادثة مباشرة
+                    </a>
+                </div>
+
+                <!-- Working Hours Card -->
+                <div class="contact-card">
+                    <div class="contact-icon clock-icon">🕐</div>
+                    <h3>مواعيد العمل</h3>
+                    <div class="working-hours">
+                        <div class="hours-row">
+                            <span>يومياً من السبت إلى الخميس</span>
+                        </div>
+                        <div class="hours-time">11:00 صباحاً - 2:00 صباحاً</div>
+                        <div class="status-badge open">مفتوح الآن</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map -->
+    <section class="contact-main-section">
+        <div class="container">
+            <div class="contact-layout">
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <h2>أرسل لنا رسالة</h2>
+                    <p class="form-intro">هل لديك استفسار أو اقتراح؟ يسعدنا سماع آرائكم</p>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">الاسم الكريم</label>
+                            <input type="text" id="contactName" name="contactName" required placeholder="اكتب اسمك هنا">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactInfo">رقم الهاتف</label>
+                            <input type="text" id="contactInfo" name="contactInfo" required placeholder="للتواصل معك">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">الرسالة</label>
+                            <textarea id="contactMessage" name="contactMessage" required placeholder="اكتب رسالتك..." rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            إرسال الرسالة ✉️
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Map -->
+                <div class="map-card">
+                    <h2>الموقع على الخريطة</h2>
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27551.89556045984!2d32.26!3d30.59!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f990e0b4a8a9c9%3A0x5c9c8e9c8e9c8e9c!2sIsmailia%2C%20Egypt!5e0!3m2!1sen!2seg!4v1234567890"
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="location-info">
+                        <h3>📍 العنوان</h3>
+                        <p>الإسماعيلية، مصر</p>
+                        <a href="https://maps.app.goo.gl/FT3ThQCLLrSuwWSB6?g_st=aw" target="_blank" class="btn btn-secondary">
+                            احصل على الاتجاهات
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <h2 class="section-title">تابعنا على السوشيال ميديا</h2>
+            <p class="section-subtitle">اتبعنا لمعرفة أحدث العروض والأخبار الجديدة</p>
+            
+            <div class="social-cards">
+                <a href="https://www.facebook.com/ElShamiRest" target="_blank" class="social-card facebook-card">
+                    <div class="social-card-icon">📘</div>
+                    <h3>فيسبوك</h3>
+                    <p>+77,000 متابع</p>
+                    <span class="follow-btn">اتبعنا على فيسبوك</span>
+                </a>
+
+                <a href="#" target="_blank" class="social-card instagram-card">
+                    <div class="social-card-icon">📸</div>
+                    <h3>إنستقرام</h3>
+                    <p>صور يومية لأطباقنا</p>
+                    <span class="follow-btn">اتبعنا على إنستقرام</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>مطعم الدجاج الشامي</h3>
+                    <p>الطيبة والرائحة الزكية ريحناها</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="menu.html">المنيو</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                      <p class="footer-phone">📞 012 701 251 23</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>تابعنا</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ElShamiRest" target="_blank" class="social-icon facebook">فيسبوك</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 مطعم الدجاج الشامي - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+201044804508" target="_blank" class="whatsapp-float" title="تواصل معنا على واتساب">
+        <span class="whatsapp-icon">💬</span>
+    </a>
+
+    <script src="../JS/cart.js"></script>
+    <script src="../JS/contact.js"></script>
+</body>
+</html>

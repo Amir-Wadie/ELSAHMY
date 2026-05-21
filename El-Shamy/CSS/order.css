@@ -1,0 +1,345 @@
+/* Order Page Specific Styles */
+
+.order-header {
+    background: linear-gradient(135deg, var(--burgundy-dark) 0%, var(--burgundy-primary) 100%);
+    color: var(--white);
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+}
+
+.order-section {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--beige-cream);
+    min-height: 60vh;
+}
+
+.order-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--spacing-xl);
+}
+
+/* Order Summary Card */
+.order-summary-card {
+    background-color: var(--white);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-md);
+    height: fit-content;
+    position: sticky;
+    top: 100px;
+}
+
+.summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 2px solid var(--beige-light);
+}
+
+.summary-header h2 {
+    font-size: 22px;
+    color: var(--burgundy-primary);
+}
+
+.clear-cart-btn {
+    background-color: transparent;
+    border: 1px solid var(--burgundy-primary);
+    color: var(--burgundy-primary);
+    padding: 8px 16px;
+    border-radius: var(--radius-md);
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: var(--font-primary);
+}
+
+.clear-cart-btn:hover {
+    background-color: var(--burgundy-primary);
+    color: var(--white);
+}
+
+/* Order Items */
+.order-items {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: var(--spacing-md);
+}
+
+.empty-cart {
+    text-align: center;
+    padding: var(--spacing-xxl) var(--spacing-md);
+}
+
+.empty-icon {
+    font-size: 64px;
+    display: block;
+    margin-bottom: var(--spacing-md);
+    opacity: 0.3;
+}
+
+.empty-cart p {
+    font-size: 18px;
+    color: var(--brown-dark);
+    margin-bottom: var(--spacing-md);
+    opacity: 0.6;
+}
+
+.order-item {
+    display: flex;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    border-bottom: 1px solid var(--beige-light);
+    align-items: center;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--radius-md);
+    background: linear-gradient(135deg, var(--beige-light) 0%, var(--beige-cream) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--burgundy-primary);
+    margin-bottom: 4px;
+}
+
+.item-qty-price {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-top: 8px;
+}
+
+.item-qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.qty-btn-small {
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid var(--burgundy-primary);
+    background-color: var(--white);
+    color: var(--burgundy-primary);
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qty-btn-small:hover {
+    background-color: var(--burgundy-primary);
+    color: var(--white);
+}
+
+.item-qty-display {
+    font-size: 15px;
+    font-weight: 600;
+    min-width: 30px;
+    text-align: center;
+}
+
+.item-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--gold);
+}
+
+.item-remove {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: var(--burgundy-primary);
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.item-remove:hover {
+    opacity: 1;
+}
+
+/* Order Totals */
+.order-totals {
+    border-top: 2px solid var(--beige-light);
+    padding-top: var(--spacing-md);
+}
+
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-sm);
+    font-size: 16px;
+}
+
+.total-final {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--burgundy-primary);
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 2px solid var(--burgundy-primary);
+}
+
+.total-final span:last-child {
+    color: var(--gold);
+}
+
+/* Customer Form Card */
+.customer-form-card {
+    background-color: var(--white);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-md);
+}
+
+.customer-form-card h2 {
+    font-size: 22px;
+    color: var(--burgundy-primary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.form-group {
+    margin-bottom: var(--spacing-lg);
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--brown-dark);
+    margin-bottom: var(--spacing-xs);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid var(--beige-light);
+    border-radius: var(--radius-md);
+    font-size: 15px;
+    font-family: var(--font-primary);
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--burgundy-primary);
+}
+
+.form-hint {
+    display: block;
+    font-size: 12px;
+    color: var(--brown-dark);
+    opacity: 0.6;
+    margin-top: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* WhatsApp Button */
+.btn-whatsapp {
+    background: linear-gradient(135deg, #024019 0%, #117267 );
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
+}
+
+.btn-whatsapp:hover {
+    background: linear-gradient(135deg, #128C7E 0%, #075E54);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
+}
+
+.btn-whatsapp:disabled {
+    /* بنثبت الجرادينت الأخضر الأصلي بتاع الزرار وهو مقفول */
+    background: linear-gradient(135deg, #088b38 0%, #0b786b) !important;
+    color: var(--white) !important;
+    
+    /* بنخليه شفاف شوية (50%) عشان العميل يفهم إنه لسه مقفول بس من غير ما يقلب أبيض */
+    opacity: 0.5; 
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.whatsapp-btn-icon {
+    font-size: 24px;
+}
+
+.form-note {
+    text-align: center;
+    font-size: 13px;
+    color: var(--brown-dark);
+    opacity: 0.7;
+    margin-top: var(--spacing-md);
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .order-layout {
+        grid-template-columns: 1fr;
+    }
+    
+    .order-summary-card {
+        position: static;
+        order: 2;
+    }
+    
+    .customer-form-card {
+        order: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .order-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .item-image {
+        width: 100%;
+        height: 120px;
+    }
+    
+    .item-details {
+        width: 100%;
+    }
+    
+    .item-qty-price {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
