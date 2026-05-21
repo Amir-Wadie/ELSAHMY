@@ -31,7 +31,7 @@ const productEmojis = {
 // Load menu data
 async function loadMenuData() {
     try {
-        const response = await fetch('../data/menu-data.json');
+        const response = await fetch('menu-data.json');
         menuData = await response.json();
         initializeMenu();
     } catch (error) {
