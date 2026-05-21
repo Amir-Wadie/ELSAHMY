@@ -1,0 +1,394 @@
+{
+  "categories": [
+    {
+      "id": "chicken-crepe",
+      "nameAr": "كريب الدجاج",
+      "nameEn": "Chicken Crepe",
+      "items": [
+        {
+          "id": "crepe-1",
+          "nameAr": "كريب شاورما فراخ مبدي كبير",
+          "price": 150,
+          "size": "كبير",
+          "isPopular": true
+        },
+        {
+          "id": "crepe-2",
+          "nameAr": "كريب شاورما فراخ مبدي وسط",
+          "price": 125,
+          "size": "وسط"
+        },
+        {
+          "id": "crepe-3",
+          "nameAr": "كريب شاورما فراخ مشروم كبير",
+          "price": 160,
+          "size": "كبير"
+        },
+        {
+          "id": "crepe-4",
+          "nameAr": "كريب كريسبي مبدي كبير",
+          "price": 130,
+          "size": "كبير"
+        },
+        {
+          "id": "crepe-5",
+          "nameAr": "كريب زنجر مبدي كبير",
+          "price": 130,
+          "size": "كبير"
+        },
+        {
+          "id": "crepe-6",
+          "nameAr": "كريب تشكين بانيه مبدي كبير",
+          "price": 130,
+          "size": "كبير"
+        },
+        {
+          "id": "crepe-7",
+          "nameAr": "كريب شاورما فراخ كبير",
+          "price": 125,
+          "size": "كبير"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "nameAr": "بيتزا",
+      "nameEn": "Pizza",
+      "items": [
+        {
+          "id": "pizza-1",
+          "nameAr": "بيتزا مارجريتا كبير",
+          "price": 150,
+          "size": "كبير"
+        },
+        {
+          "id": "pizza-2",
+          "nameAr": "بيتزا مارجريتا وسط",
+          "price": 125,
+          "size": "وسط"
+        },
+        {
+          "id": "pizza-3",
+          "nameAr": "بيتزا مشروم كبير",
+          "price": 150,
+          "size": "كبير"
+        },
+        {
+          "id": "pizza-4",
+          "nameAr": "بيتزا مشروم وسط",
+          "price": 125,
+          "size": "وسط"
+        },
+        {
+          "id": "pizza-5",
+          "nameAr": "بيتزا المفضول الاربعة كبير",
+          "price": 170,
+          "size": "كبير"
+        },
+        {
+          "id": "pizza-6",
+          "nameAr": "بيتزا المفضول الاربعة وسط",
+          "price": 150,
+          "size": "وسط"
+        },
+        {
+          "id": "pizza-7",
+          "nameAr": "بيتزا هوت دوج كبير",
+          "price": 200,
+          "size": "كبير",
+          "isPopular": true
+        },
+        {
+          "id": "pizza-8",
+          "nameAr": "بيتزا هوت دوج وسط",
+          "price": 175,
+          "size": "وسط"
+        }
+      ]
+    },
+    {
+      "id": "egg-pies",
+      "nameAr": "فطاير بيض",
+      "nameEn": "Egg Pies",
+      "items": [
+        { "id": "egg-1", "nameAr": "فطيرة بيض سادة", "price": 25 },
+        { "id": "egg-2", "nameAr": "فطيرة بيض سادة", "price": 30 },
+        { "id": "egg-3", "nameAr": "فطيرة بيض سادة", "price": 30 },
+        { "id": "egg-4", "nameAr": "فطيرة بيض بسطرمة", "price": 30 }
+      ]
+    },
+    {
+      "id": "meat-pies",
+      "nameAr": "فطاير لحمة",
+      "nameEn": "Meat Pies",
+      "items": [
+        { "id": "meat-1", "nameAr": "فطيرة شكولاته سادة", "price": 30 },
+        { "id": "meat-2", "nameAr": "فطيرة شكولاته موز", "price": 35 },
+        { "id": "meat-3", "nameAr": "فطيرة قشطة و موز", "price": 35 },
+        { "id": "meat-4", "nameAr": "فطيرة قشطة و موز و عسل", "price": 35 },
+        {
+          "id": "meat-5",
+          "nameAr": "برك لحمة مفروم",
+          "price": 200,
+          "isPopular": true
+        },
+        { "id": "meat-6", "nameAr": "برك لحمة مفروم", "price": 210 },
+        { "id": "meat-7", "nameAr": "بيتزا مكسيكاني", "price": 220 },
+        { "id": "meat-8", "nameAr": "بيتزا مدبح شامي", "price": 210 },
+        { "id": "meat-9", "nameAr": "بيتزا ترونة", "price": 220 }
+      ]
+    },
+    {
+      "id": "mozzarella-pies",
+      "nameAr": "برك موتزاريلا",
+      "nameEn": "Mozzarella Pies",
+      "items": [
+        { "id": "mozz-1", "nameAr": "برك موتزاريلا سادة", "price": 30 },
+        { "id": "mozz-2", "nameAr": "برك موتزاريلا سادة", "price": 30 },
+        { "id": "mozz-3", "nameAr": "برك كعكه فراخ سادة", "price": 35 },
+        { "id": "mozz-4", "nameAr": "برك كعكه فراخ موتزاريلا", "price": 35 },
+        {
+          "id": "mozz-5",
+          "nameAr": "برك فراخ موتزاريلا بالبطاطس",
+          "price": 35
+        },
+        { "id": "mozz-6", "nameAr": "برك سجق سادة", "price": 35 },
+        { "id": "mozz-7", "nameAr": "برك سجق موتزاريلا", "price": 35 }
+      ]
+    },
+    {
+      "id": "garlic-pies",
+      "nameAr": "برك طوم",
+      "nameEn": "Garlic Pies",
+      "items": [
+        { "id": "garlic-1", "nameAr": "برك طوم كامل", "price": 35 },
+        { "id": "garlic-2", "nameAr": "برك طوم سادة", "price": 30 },
+        { "id": "garlic-3", "nameAr": "برك طوم موتزاريلا", "price": 35 },
+        { "id": "garlic-4", "nameAr": "برك طوم بسطرمة", "price": 35 },
+        { "id": "garlic-5", "nameAr": "برك طوم سلامي", "price": 35 },
+        { "id": "garlic-6", "nameAr": "برك هوت دوج", "price": 35 },
+        { "id": "garlic-7", "nameAr": "برك طوم سجق شامي", "price": 35 }
+      ]
+    },
+    {
+      "id": "cheddar-pies",
+      "nameAr": "برك الشيدر",
+      "nameEn": "Cheddar Pies",
+      "items": [{ "id": "cheddar-1", "nameAr": "برك شيدر سادة", "price": 30 }]
+    },
+    {
+      "id": "shawarma-sandwiches",
+      "nameAr": "سندوتشات الشاورما",
+      "nameEn": "Shawarma Sandwiches",
+      "items": [
+        { "id": "shawarma-1", "nameAr": "لقمة كابور شاورما فراخ", "price": 65 },
+        { "id": "shawarma-2", "nameAr": "لقمة كابور لحمة دوايش", "price": 70 },
+        { "id": "shawarma-3", "nameAr": "سندوتش شاورما فراخ وسط", "price": 75 },
+        { "id": "shawarma-4", "nameAr": "سندوتش شاورما فراخ كبس", "price": 90 },
+        {
+          "id": "shawarma-5",
+          "nameAr": "سندوتش شاورما لحمة وسط",
+          "price": 85,
+          "isPopular": true
+        }
+      ]
+    },
+    {
+      "id": "western-sandwiches",
+      "nameAr": "سندوتشات الغربي",
+      "nameEn": "Western Sandwiches",
+      "items": [
+        { "id": "western-1", "nameAr": "كريسبي", "price": 130 },
+        { "id": "western-2", "nameAr": "زنجر", "price": 130 },
+        { "id": "western-3", "nameAr": "سكالوب", "price": 130 },
+        { "id": "western-4", "nameAr": "كرانشي", "price": 130 },
+        { "id": "western-5", "nameAr": "ماهيتا شامي", "price": 130 },
+        { "id": "western-6", "nameAr": "هوت دوج مقطع", "price": 100 },
+        { "id": "western-7", "nameAr": "بتفيبي بيف مكسيكاني", "price": 120 },
+        { "id": "western-8", "nameAr": "بتفيبي فراخ مكسيكاني", "price": 120 },
+        { "id": "western-9", "nameAr": "بتفيبي فراخ مقطع", "price": 150 },
+        { "id": "western-10", "nameAr": "سندوتش كبابة يالى", "price": 150 }
+      ]
+    },
+    {
+      "id": "classic-sandwiches",
+      "nameAr": "سندوتشات ع القدم",
+      "nameEn": "Classic Sandwiches",
+      "items": [
+        { "id": "classic-1", "nameAr": "سندوتش كفتة فراخ بلدى", "price": 100 },
+        { "id": "classic-2", "nameAr": "سندوتش كفتة لحمر بلدى", "price": 120 },
+        { "id": "classic-3", "nameAr": "سندوتش فراخ الورق", "price": 110 },
+        { "id": "classic-4", "nameAr": "سندوتش كباب (شقفة) بلدى", "price": 130 }
+      ]
+    },
+    {
+      "id": "western-meals",
+      "nameAr": "وجبات غربي ميلز",
+      "nameEn": "Western Meals",
+      "items": [
+        { "id": "meal-west-1", "nameAr": "وجبة كريسبي مبدي", "price": 210 },
+        { "id": "meal-west-2", "nameAr": "وجبة اسكالوب مبدي", "price": 210 },
+        { "id": "meal-west-3", "nameAr": "وجبة كرانشي مبدي", "price": 210 },
+        { "id": "meal-west-4", "nameAr": "وجبة فاميلي مبدي", "price": 210 },
+        { "id": "meal-west-5", "nameAr": "وجبة زنجر مبدي", "price": 210 },
+        { "id": "meal-west-6", "nameAr": "وجبة مكسيكاني مبدي", "price": 210 },
+        {
+          "id": "meal-west-7",
+          "nameAr": "وجبة ماهيتا فراخ مبدي",
+          "price": 130
+        },
+        { "id": "meal-west-8", "nameAr": "وجبة بابولى مبدي", "price": 210 }
+      ]
+    },
+    {
+      "id": "shawarma-meals",
+      "nameAr": "وجبات الشاورما",
+      "nameEn": "Shawarma Meals",
+      "items": [
+        {
+          "id": "meal-shawarma-1",
+          "nameAr": "وجبة شاورما فراخ عربى (طماطم + عطل + بطاطس + مخلل + بوجية)",
+          "price": 135,
+          "isPopular": true
+        },
+        {
+          "id": "meal-shawarma-2",
+          "nameAr": "وجبة شاورما غربى اكسترا (طماطم + عطل + بطاطس + مخلل + بوجية)",
+          "price": 145
+        },
+        {
+          "id": "meal-shawarma-3",
+          "nameAr": "طبق شاورما فراخ عربى (طبق + بطن + بوجيه)",
+          "price": 145
+        },
+        {
+          "id": "meal-shawarma-4",
+          "nameAr": "وجبة شاورما لحمة عربى (طماطم + عطل + بطاطس + مخلل + بوجية)",
+          "price": 190
+        },
+        {
+          "id": "meal-shawarma-5",
+          "nameAr": "وجبة شاورما لحمة غربى (طماطم + عطل + بطاطس + مخلل + بوجية)",
+          "price": 145
+        }
+      ]
+    },
+    {
+      "id": "shawarma-rice",
+      "nameAr": "الشاورما بالأرز",
+      "nameEn": "Shawarma with Rice",
+      "items": [
+        { "id": "rice-1", "nameAr": "1/2 ك شاورما فراخ", "price": 400 },
+        { "id": "rice-2", "nameAr": "1 ك شاورما فراخ", "price": 800 },
+        { "id": "rice-3", "nameAr": "1/2 ك شاورما لحمة", "price": 450 },
+        { "id": "rice-4", "nameAr": "1 ك شاورما لحمة", "price": 900 }
+      ]
+    },
+    {
+      "id": "western-dishes",
+      "nameAr": "وجبات الغربي",
+      "nameEn": "Western Dishes",
+      "items": [
+        { "id": "dish-west-1", "nameAr": "وجبة كريسبى لحمة", "price": 185 },
+        { "id": "dish-west-2", "nameAr": "وجبة مابا فراخ", "price": 195 }
+      ]
+    },
+    {
+      "id": "broasted",
+      "nameAr": "فراخ بروستد",
+      "nameEn": "Broasted Chicken",
+      "items": [
+        { "id": "broasted-1", "nameAr": "وجبة بروستد الدوايش", "price": 170 },
+        { "id": "broasted-2", "nameAr": "وجبة بروستد كنتاكى", "price": 285 },
+        { "id": "broasted-3", "nameAr": "وجبة بروستد دن بوكس", "price": 400 },
+        { "id": "broasted-4", "nameAr": "وجبة فاميلى عائلى", "price": 800 },
+        {
+          "id": "broasted-5",
+          "nameAr": "وجبة بروستد الدجاج الشامى",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": "grilled",
+      "nameAr": "ركن الفراخ شواية",
+      "nameEn": "Grilled Chicken Corner",
+      "items": [
+        {
+          "id": "grill-1",
+          "nameAr": "ربع فريكة مشويةعلى الطريقة السورية مع أرز",
+          "price": 110
+        },
+        { "id": "grill-2", "nameAr": "نص فريكة مشوية", "price": 200 },
+        {
+          "id": "grill-3",
+          "nameAr": "ربع فريكة مشوية على الفحم مع أرز",
+          "price": 120
+        },
+        {
+          "id": "grill-4",
+          "nameAr": "نص فريكة مشوية على الفحم مع أرز",
+          "price": 200
+        },
+        { "id": "grill-5", "nameAr": "ربع فريكة صدر افخاذ", "price": 105 },
+        {
+          "id": "grill-6",
+          "nameAr": "ربع فريكة صدر افخاذ على الفحم (برق)",
+          "price": 210
+        }
+      ]
+    },
+    {
+      "id": "potatoes",
+      "nameAr": "البطاطس",
+      "nameEn": "Potatoes",
+      "items": [
+        { "id": "potato-1", "nameAr": "باكت بطاطس", "price": 30 },
+        { "id": "potato-2", "nameAr": "باكت بطاطس موتزاريلا", "price": 50 },
+        { "id": "potato-3", "nameAr": "سندوتش بطاطس", "price": 30 },
+        { "id": "potato-4", "nameAr": "سندوتش بطاطس موتزاريلا", "price": 40 },
+        { "id": "potato-5", "nameAr": "سندوتش بطاطس بصوص الشيدر", "price": 50 }
+      ]
+    },
+    {
+      "id": "kabao",
+      "nameAr": "منشويات بالكباو",
+      "nameEn": "Kabao Grills",
+      "items": [
+        { "id": "kabao-1", "nameAr": "كفتة فراخ", "price": 900 },
+        { "id": "kabao-2", "nameAr": "كفتة لحمة بلدى", "price": 450 },
+        { "id": "kabao-3", "nameAr": "فراخ الورق", "price": 950 },
+        { "id": "kabao-4", "nameAr": "كباب (شقفة) بلدى", "price": 1100 }
+      ]
+    },
+    {
+      "id": "pasta",
+      "nameAr": "مكرونات",
+      "nameEn": "Pasta",
+      "items": [
+        { "id": "pasta-1", "nameAr": "مكرونة نجريسكو", "price": 110 },
+        { "id": "pasta-2", "nameAr": "مكرونة فوشيشى", "price": 85 },
+        { "id": "pasta-3", "nameAr": "مكرونة بولونيز", "price": 110 }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "nameAr": "المقبلات",
+      "nameEn": "Appetizers",
+      "items": [
+        { "id": "app-1", "nameAr": "مخلل عليه", "price": 30 },
+        { "id": "app-2", "nameAr": "قرص كيمبو", "price": 30 },
+        { "id": "app-3", "nameAr": "فلافل", "price": 50 },
+        { "id": "app-4", "nameAr": "بابا غنوج", "price": 60 },
+        { "id": "app-5", "nameAr": "توميه", "price": 50 },
+        { "id": "app-6", "nameAr": "حمص زكى", "price": 50 },
+        { "id": "app-7", "nameAr": "طبق", "price": 50 },
+        { "id": "app-8", "nameAr": "كول سلو", "price": 50 },
+        { "id": "app-9", "nameAr": "سلطة خضراء", "price": 50 },
+        { "id": "app-10", "nameAr": "طبق سرفيس", "price": 50 },
+        { "id": "app-11", "nameAr": "طبق ورق بالدجى", "price": 50 },
+        { "id": "app-12", "nameAr": "صلصه", "price": 60 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+/* Contact Page Specific Styles */
+
+.contact-header {
+    background: linear-gradient(135deg, var(--burgundy-dark) 0%, var(--burgundy-primary) 100%);
+    color: var(--white);
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+}
+
+/* Contact Info Cards */
+.contact-info-section {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--beige-cream);
+}
+
+.contact-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.contact-card {
+    background-color: var(--white);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+}
+
+.contact-icon {
+    font-size: 48px;
+    margin-bottom: var(--spacing-md);
+    display: inline-block;
+}
+
+.contact-card h3 {
+    font-size: 20px;
+    color: var(--burgundy-primary);
+    margin-bottom: var(--spacing-md);
+    font-weight: 700;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.phone-link {
+    color: var(--brown-dark);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: var(--radius-sm);
+    transition: all 0.3s;
+    direction: ltr;
+}
+
+.phone-link:hover {
+    background-color: var(--beige-light);
+    color: var(--burgundy-primary);
+}
+
+.whatsapp-card {
+    background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
+}
+
+.whatsapp-card p {
+    font-size: 15px;
+    color: var(--brown-dark);
+    margin-bottom: var(--spacing-md);
+}
+
+.btn-whatsapp {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    color: var(--white);
+    padding: 12px 24px;
+    border-radius: var(--radius-pill);
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-whatsapp:hover {
+    background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+    transform: scale(1.05);
+}
+
+.working-hours {
+    text-align: center;
+}
+
+.hours-row {
+    font-size: 15px;
+    color: var(--brown-dark);
+    margin-bottom: var(--spacing-xs);
+}
+
+.hours-time {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--burgundy-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: var(--radius-pill);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.status-badge.open {
+    background-color: #4CAF50;
+    color: var(--white);
+}
+
+.status-badge.closed {
+    background-color: #F44336;
+    color: var(--white);
+}
+
+/* Contact Main Section */
+.contact-main-section {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--white);
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+}
+
+.contact-form-card,
+.map-card {
+    background-color: var(--beige-light);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.contact-form-card h2,
+.map-card h2 {
+    font-size: 24px;
+    color: var(--burgundy-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.form-intro {
+    font-size: 15px;
+    color: var(--brown-dark);
+    opacity: 0.8;
+    margin-bottom: var(--spacing-lg);
+}
+
+.map-wrapper {
+    width: 100%;
+    height: 350px;
+    margin-bottom: var(--spacing-md);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.location-info {
+    text-align: center;
+}
+
+.location-info h3 {
+    font-size: 18px;
+    color: var(--burgundy-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.location-info p {
+    font-size: 15px;
+    color: var(--brown-dark);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Social Media Section */
+.social-section {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--beige-cream);
+}
+
+.social-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.social-card {
+    background-color: var(--white);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-md);
+}
+
+.social-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.facebook-card {
+    border-top: 4px solid #1877F2;
+}
+
+.instagram-card {
+    border-top: 4px solid #E4405F;
+}
+
+.social-card-icon {
+    font-size: 56px;
+    margin-bottom: var(--spacing-md);
+}
+
+.social-card h3 {
+    font-size: 22px;
+    color: var(--burgundy-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.social-card p {
+    font-size: 15px;
+    color: var(--brown-dark);
+    opacity: 0.7;
+    margin-bottom: var(--spacing-md);
+}
+
+.follow-btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: var(--burgundy-primary);
+    color: var(--white);
+    border-radius: var(--radius-pill);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.facebook-card .follow-btn {
+    background-color: #1877F2;
+}
+
+.instagram-card .follow-btn {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);
+}
+/* تنظيم عناصر مجموعة الإدخال */
+.form-group {
+    display: flex;
+    flex-direction: column; /* بيخلي الليبل فوق الحقل */
+    align-items: flex-start; /* بيحاذي الكلام لليمين أو اليسار حسب اتجاه الصفحة */
+    gap: 8px;               /* مسافة مناسبة بين الليبل والحقل */
+    margin-bottom: 16px;    /* مسافة بين كل مجموعة والتانية */
+    width: 100%;            /* التأكد من إن المجموعة واخدة العرض الكامل */
+}
+
+/* تنسيق حقول الإدخال والـ textarea */
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;            /* بيخلي الحقل يتفرد بكامل عرض الكارت */
+    padding: 10px 12px;     /* مساحة داخلية مريحة للكتابة */
+    border: 1px solid #ccc; /* تحديد الحواف بشكل لطيف */
+    border-radius: 6px;     /* حواف دائرية خفيفة تتماشى مع ديزاين الكارت */
+    box-sizing: border-box; /* علشان الـ padding ما يرفسش الحجم لبرة */
+    font-size: 14px;
+}
+
+/* زيادة مساحة الـ textarea وميخليهاش تبوظ الديزاين لو العميل كبر حجمها */
+.form-group textarea {
+    resize: vertical;       /* التكبير يكون رأسي فقط وليس أفقي */
+    min-height: 100px;      /* طول مبدئي مناسب للرسالة */
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+    
+    .map-wrapper {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-cards-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-cards {
+        grid-template-columns: 1fr;
+    }
+}

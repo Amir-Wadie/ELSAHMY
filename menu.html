@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منيو مطعم الدجاج الشامي - أشهى الأطباق الشامية</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>مطعم الدجاج الشامي</h1>
+                <p class="nav-subtitle">El Shami Chicken</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="menu.html" class="active">المنيو</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+            <div class="nav-cart">
+                <a href="order.html" class="cart-icon">
+                    🛒
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Header -->
+    <section class="menu-header">
+        <div class="container">
+            <h1 class="page-title">منيو مطعم الدجاج الشامي</h1>
+            <p class="page-subtitle">اختر من أشهى الأطباق الشامية والشرقية والغربية</p>
+        </div>
+    </section>
+
+    <!-- Search & Filter Section -->
+    <section class="menu-controls">
+        <div class="container">
+            <!-- Search Bar -->
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="ابحث عن طبقك المفضل..." />
+                <span class="search-icon">🔍</span>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="category-filter" id="categoryFilter">
+                <button class="filter-btn active" data-category="all">الكل</button>
+                <!-- Categories will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded dynamically -->
+                <div class="loading">جاري تحميل المنيو...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Cart Summary (visible when cart has items) -->
+    <div class="cart-summary-float" id="cartSummary" style="display: none;">
+        <div class="cart-summary-content">
+            <div class="cart-summary-header">
+                <h3>سلة المشتريات</h3>
+                <button class="close-cart" id="closeCartSummary">✕</button>
+            </div>
+            <div class="cart-items-list" id="cartItemsList">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div class="cart-summary-footer">
+                <div class="cart-total">
+                    <span>الإجمالي:</span>
+                    <span class="total-price" id="cartTotalPrice">0 ج.م</span>
+                </div>
+                <a href="order.html" class="btn btn-primary btn-block">إتمام الطلب</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>مطعم الدجاج الشامي</h3>
+                    <p>الطيبة والرائحة الزكية ريحناها</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="menu.html">المنيو</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <p class="footer-phone">📞 012 701 251 23</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>تابعنا</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ElShamiRest" target="_blank" class="social-icon facebook">فيسبوك</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 مطعم الدجاج الشامي - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+201044804508" target="_blank" class="whatsapp-float" title="تواصل معنا على واتساب">
+        <span class="whatsapp-icon">💬</span>
+    </a>
+
+    <script src="../JS/cart.js"></script>
+    <script src="../JS/menu.js"></script>
+</body>
+</html>
